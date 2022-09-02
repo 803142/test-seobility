@@ -1,0 +1,16 @@
+.slider-screen {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 100vw;
+  height: 100vh;
+  transition: right 1s;
+}
+
+.slider-screen.active {
+  right: 0;
+}
+
+.slider-screen.hidden {
+  right: +100%;
+}

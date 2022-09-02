@@ -1,3 +1,17 @@
+@import "./assets/fonts/montserrat.css";
 
+*{
+  font-family: "Montserrat-Regular";
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  cursor: url(./assets/image/cursor-regular.png) 25 25, pointer;
+}
 
-
+h1, h2, h3, heading {
+  font-family: "Montserrat-Medium";
+  font-weight: 500;
+  cursor: url(./assets/image/cursor-active.png) 50 50, pointer;
+}

@@ -1,4 +1,5 @@
 import './style.scss';
+require('./components/importstyle');
 import { APPCONTAINERCLASS, BODYTAG } from './constants/app-constants';
 import { create, qs } from './helper';
 
